@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">De Olho na Fila</string>
+
+    <string name="nav_place_listing">Place Listing Navigation Target</string>
+
+    <string name="error_network">Failed to fetch data</string>
 </resources>

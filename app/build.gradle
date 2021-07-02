@@ -34,6 +34,8 @@ android {
     kotlinOptions {
         jvmTarget = '1.8'
     }
+
+    buildFeatures.viewBinding true
 }
 
 kapt {
@@ -70,6 +72,8 @@ dependencies {
 
     implementation "com.google.dagger:hilt-android:$versions.dagger"
     kapt "com.google.dagger:hilt-android-compiler:$versions.dagger"
+
+    implementation 'com.github.permissions-dispatcher:permissionsdispatcher-ktx:4.8.0'
 
     testImplementation 'junit:junit:4.13.2'
 
