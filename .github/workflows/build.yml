@@ -33,8 +33,8 @@ jobs:
         env:
           CIPHER_DECRYPT_KEY: ${{ secrets.CIPHER_DECRYPT_KEY }}
       - name: Configure Gradle
-        run: ./gradlew help
-      - name: Build project --stacktrace
+        run: ./gradlew help  --stacktrace
+      - name: Build project
         run: ./gradlew assemble testDebugUnitTest --stacktrace
         env:
           RELEASE_KEY_PASSWORD: ${{ secrets.RELEASE_KEY_PASSWORD }}
