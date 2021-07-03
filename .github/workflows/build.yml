@@ -19,10 +19,25 @@ jobs:
         with:
           distribution: 'adopt'
           java-version: '8'
+      - name: Cache Gradle files
+        uses: actions/cache@v2
+        with:
+          path: |
+            ~/.gradle/caches
+            ~/.gradle/wrapper
+          key: ${{ runner.os }}-gradle-${{ hashFiles('**/*.gradle*', '**/gradle-wrapper.properties') }}
+          restore-keys: |
+            ${{ runner.os }}-gradle-
+      - name: Decrypt release key
+        run: openssl aes-256-cbc -d -in distribution/release.keystore-cipher -out distribution/release.keystore -md sha256 -k $CIPHER_DECRYPT_KEY
+        env:
+          CIPHER_DECRYPT_KEY: ${{ secrets.CIPHER_DECRYPT_KEY }}
       - name: Configure Gradle
         run: ./gradlew help
       - name: Build project --stacktrace
         run: ./gradlew assemble testDebugUnitTest --stacktrace
+        env:
+          RELEASE_KEY_PASSWORD: ${{ secrets.RELEASE_KEY_PASSWORD }}
       - name: Upload test reports
         if: always()
         uses: actions/upload-artifact@v2
