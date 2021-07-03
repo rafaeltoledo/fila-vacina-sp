@@ -8,6 +8,8 @@ jobs:
     env:
       JAVA_TOOL_OPTIONS: "-Xmx5120m -XX:+UnlockExperimentalVMOptions -XX:+UseCGroupMemoryLimitForHeap"
       GRADLE_OPTS: "-Xms1g -Xmx5120m -Dorg.gradle.daemon=false -Dorg.gradle.parallel=true -Dorg.gradle.workers.max=2 -Dkotlin.incremental=false -Dkotlin.compiler.execution.strategy=in-process"
+      ORG_GRADLE_PROJECT_MAPBOX_PUBLIC_TOKEN: ${{ secrets.MAPBOX_PUBLIC_TOKEN }}
+      ORG_GRADLE_PROJECT_MAPBOX_PRIVATE_TOKEN: ${{ secrets.MAPBOX_PRIVATE_TOKEN }}
 
     steps:
       - name: Checkout

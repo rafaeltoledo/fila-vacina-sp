@@ -17,6 +17,8 @@ android {
         versionName '1.0.0'
 
         testInstrumentationRunner 'androidx.test.runner.AndroidJUnitRunner'
+
+        resValue 'string', 'mapbox_access_token', "$MAPBOX_PUBLIC_TOKEN"
     }
 
     signingConfigs {
@@ -91,6 +93,8 @@ dependencies {
     kapt "com.google.dagger:hilt-android-compiler:$versions.dagger"
 
     implementation 'com.github.permissions-dispatcher:permissionsdispatcher-ktx:4.8.0'
+
+    implementation 'com.mapbox.mapboxsdk:mapbox-android-sdk:9.6.1'
 
     testImplementation 'junit:junit:4.13.2'
 
