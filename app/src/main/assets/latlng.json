@@ -1382,5 +1382,817 @@
   {
     "key": "AMA/UBS INTEGRADA VILA NOVA JAGUARÉ",
     "position": "-23.5431727,-46.7466809"
+  },
+  {
+    "key": "SAE LAPA",
+    "position": "-23.5253316,-46.7090642"
+  },
+  {
+    "key": "TEATRO CACILDA BECKER",
+    "position": "-23.5283156,-46.6967847"
+  },
+  {
+    "key": "UBS VILA ANASTÁCIO",
+    "position": "-23.5157322,-46.7250068"
+  },
+  {
+    "key": "UBS VILA IPOJUCA - DRA. WANDA COELHO DE MORAES",
+    "position": "-23.5320078,-46.7032867"
+  },
+  {
+    "key": "UBS REAL PARQUE - DR. PAULO MANGABEIRA ALBERNAZ FILHO",
+    "position": "-23.6099858,-46.7077311"
+  },
+  {
+    "key": "ALLIANZ PARK",
+    "position": "-23.5276431,-46.6806332"
+  },
+  {
+    "key": "UBS JARDIM VERA CRUZ - PERDIZES",
+    "position": "-23.5384166,-46.6914043"
+  },
+  {
+    "key": "CSE GERALDO DE PAULA SOUZA",
+    "position": "-23.5532907,-46.6756508"
+  },
+  {
+    "key": "UBS DR. MANOEL JOAQUIM PÊRA",
+    "position": "-23.553669,-46.6933375"
+  },
+  {
+    "key": "AMA/UBS INTEGRADA JARDIM SÃO JORGE - DR. PAULO EDUARDO ELIAS",
+    "position": "-23.5926537,-46.785829"
+  },
+  {
+    "key": "AMA/UBS INTEGRADA PAULO VI",
+    "position": "-23.601818,-46.7972628"
+  },
+  {
+    "key": "UBS JARDIM BOA VISTA",
+    "position": "-23.5842882,-46.7935551"
+  },
+  {
+    "key": "UBS VILA BORGES",
+    "position": "-23.5872032,-46.7725217"
+  },
+  {
+    "key": "SAE BUTANTA",
+    "position": "-23.5658123,-46.7460205"
+  },
+  {
+    "key": "UBS JARDIM DABRIL",
+    "position": "-23.5760082,-46.7774054"
+  },
+  {
+    "key": "UBS JOSÉ MARCÍLIO MALTA CARDOSO",
+    "position": "-23.5727329,-46.7633772"
+  },
+  {
+    "key": "UBS RIO PEQUENO - DR. PAULO DE BARROS FRANÇA",
+    "position": "-23.5627129,-46.7538321"
+  },
+  {
+    "key": "UBS SÃO REMO",
+    "position": "-23.5637056,-46.7462044"
+  },
+  {
+    "key": "UBS VILA DALVA - ENG. GUILHERME HENRIQUE PINTO COELHO",
+    "position": "-23.5636092,-46.7672659"
+  },
+  {
+    "key": "UBS PARQUE DA LAPA",
+    "position": "-23.5316008,-46.722746"
+  },
+  {
+    "key": "AMA/UBS INTEGRADA VILA SONIA",
+    "position": "-23.5980987,-46.7368611"
+  },
+  {
+    "key": "UBS JARDIM COLOMBO",
+    "position": "-23.6017398,-46.7304072"
+  },
+  {
+    "key": "UBS JARDIM JAQUELINE",
+    "position": "-23.5948074,-46.7540535"
+  },
+  {
+    "key": "MEGA POSTO EXTRA HIPERMERCADO - AEROPORTO",
+    "position": "-23.6285655,-46.6697118"
+  },
+  {
+    "key": "UBS JARDIM AEROPORTO - DR. MASSAKI UDIHARA",
+    "position": "-23.6262452,-46.6688832"
+  },
+  {
+    "key": "UBS CAMPO GRANDE",
+    "position": "-23.6736007,-46.6874602"
+  },
+  {
+    "key": "UBS VILA ARRIETE-DECIO PACHECO PEDROSO",
+    "position": "-23.6806064,-46.6886869"
+  },
+  {
+    "key": "MEGA POSTO DE VACINAÇÃO - SHOPPING CAMPO LIMPO",
+    "position": "-23.6495485,-46.7595596"
+  },
+  {
+    "key": "SAE DST / AIDS CAMPO LIMPO",
+    "position": "-23.6327247,-46.7778667"
+  },
+  {
+    "key": "SHOPPING CAMPO LIMPO",
+    "position": "-23.6495485,-46.7595596"
+  },
+  {
+    "key": "SHOPPING JARDIM SUL",
+    "position": "-23.6307948,-46.7378853"
+  },
+  {
+    "key": "UBS ALTO DO UMUARAMA",
+    "position": "-23.6462668,-46.7747178"
+  },
+  {
+    "key": "UBS ARRASTÃO - DR. FRANCISCO SCALAMANDRE SOBRINHO",
+    "position": "-23.634277,-46.779613"
+  },
+  {
+    "key": "UBS CAMPO LIMPO",
+    "position": "-23.6369719,-46.7659841"
+  },
+  {
+    "key": "UBS JARDIM HELGA",
+    "position": "-23.6414076,-46.7737505"
+  },
+  {
+    "key": "UBS JARDIM MITSUTANI",
+    "position": "-23.6441553,-46.7828402"
+  },
+  {
+    "key": "UBS JARDIM OLINDA",
+    "position": "-23.6288681,-46.7566633"
+  },
+  {
+    "key": "UBS PARQUE ARARIBA",
+    "position": "-23.6379371,-46.751955"
+  },
+  {
+    "key": "UBS PARQUE REGINA - PERINA ALVES TEIXEIRA",
+    "position": "-23.6346935,-46.7579792"
+  },
+  {
+    "key": "AMA/UBS INTEGRADA PQ FERNANDA",
+    "position": "-23.6759423,-46.7943184"
+  },
+  {
+    "key": "UBS JARDIM COMERCIAL",
+    "position": "-23.6714816,-46.7817842"
+  },
+  {
+    "key": "UBS JARDIM ELEDY",
+    "position": "-23.6547107,-46.7867293"
+  },
+  {
+    "key": "UBS JARDIM GERMANIA",
+    "position": "-23.6539749,-46.7597397"
+  },
+  {
+    "key": "UBS JARDIM LIDIA",
+    "position": "-23.6653238,-46.7646879"
+  },
+  {
+    "key": "UBS JARDIM MACEDÔNIA",
+    "position": "-23.6530594,-46.7922837"
+  },
+  {
+    "key": "UBS JARDIM MAGDALENA",
+    "position": "-23.6669349,-46.7946748"
+  },
+  {
+    "key": "UBS JARDIM MARACÁ",
+    "position": "-23.6716433,-46.7749383"
+  },
+  {
+    "key": "UBS JARDIM SÃO BENTO",
+    "position": "-23.6855381,-46.7858894"
+  },
+  {
+    "key": "UBS JARDIM VALQUIRIA",
+    "position": "-23.6579151,-46.7775448"
+  },
+  {
+    "key": "UBS LUAR DO SERTÃO",
+    "position": "-23.6928746,-46.7966419"
+  },
+  {
+    "key": "UBS PARQUE ENGENHO II",
+    "position": "-23.6611996,-46.7884438"
+  },
+  {
+    "key": "AMA/UBS INTEGRADA JARDIM MIRIAM - MANOEL SOARES DE OLIVEIRA",
+    "position": "-23.6786367,-46.6467239"
+  },
+  {
+    "key": "AMA/UBS INTEGRADA VILA IMPÉRIO",
+    "position": "-23.6728645,-46.6516403"
+  },
+  {
+    "key": "AMA/UBS INTEGRADA VILA JOANIZA - JOÃO YUNES",
+    "position": "-23.6741311,-46.661761"
+  },
+  {
+    "key": "AMA/UBS INTEGRADA VILA MISSIONÁRIA",
+    "position": "-23.6889716,-46.6518899"
+  },
+  {
+    "key": "UBS CIDADE JULIA",
+    "position": "-23.6910389,-46.6426863"
+  },
+  {
+    "key": "UBS JARDIM MIRIAM II",
+    "position": "-23.6790283,-46.6422871"
+  },
+  {
+    "key": "UBS JARDIM NITERÓI",
+    "position": "-23.6824443,-46.6702196"
+  },
+  {
+    "key": "UBS JARDIM SÃO CARLOS - CIDADE ADEMAR",
+    "position": "-23.6821669,-46.660682"
+  },
+  {
+    "key": "UBS JARDIM UMUARAMA",
+    "position": "-23.6620771,-46.6718551"
+  },
+  {
+    "key": "UBS SÃO JORGE - CIDADE ADEMAR",
+    "position": "-23.6856033,-46.6636732"
+  },
+  {
+    "key": "UBS VILA CONSTÂNCIA - DR VICENTE OCTAVIO GUIDA",
+    "position": "-23.6736115,-46.6686446"
+  },
+  {
+    "key": "UBS VILA IMPERIO - DRA GILDA TERA TAHIRA",
+    "position": "-23.6765244,-46.6530478"
+  },
+  {
+    "key": "MEGA POSTO PETZ",
+    "position": "-23.7441453,-46.7092202"
+  },
+  {
+    "key": "SAE DST / AIDS CIDADE DUTRA",
+    "position": "-23.7100458,-46.7067501"
+  },
+  {
+    "key": "SESC INTERLAGOS",
+    "position": "-23.7276765,-46.6845662"
+  },
+  {
+    "key": "UBS AUTÓDROMO-DR FAUZER SIMÃO ABRÃO",
+    "position": "-23.7008081,-46.6941922"
+  },
+  {
+    "key": "UBS DR. SÉRGIO CHADDAD",
+    "position": "-23.7424884,-46.712949"
+  },
+  {
+    "key": "UBS JARDIM CLIPER",
+    "position": "-23.7237467,-46.7083076"
+  },
+  {
+    "key": "UBS JARDIM ORION/GUANHEMBU",
+    "position": "-23.7270202,-46.6877274"
+  },
+  {
+    "key": "UBS JARDIM REPÚBLICA",
+    "position": "-23.7150375,-46.6893364"
+  },
+  {
+    "key": "UBS JORDANÓPOLIS",
+    "position": "-23.7297695,-46.7057652"
+  },
+  {
+    "key": "AMA/UBS INTEGRADA VILA MORAES - DR. JOÃO PAULO BOTELHO VIEIRA",
+    "position": "-23.6335255,-46.6147273"
+  },
+  {
+    "key": "UBS ÁGUA FUNDA",
+    "position": "-23.6302403,-46.6282143"
+  },
+  {
+    "key": "UBS JARDIM DA SAÚDE - NEUSA ROSALIA MORALES",
+    "position": "-23.6127322,-46.6184696"
+  },
+  {
+    "key": "UBS PROF JANDIRA MASSUR - VL GUMERCINDO",
+    "position": "-23.6038642,-46.6256121"
+  },
+  {
+    "key": "AMA/UBS INTEGRADA JARDIM CASTRO ALVES - DRA MARIA CRISTINA F",
+    "position": "-23.7424558,-46.6887845"
+  },
+  {
+    "key": "AMA/UBS INTEGRADA JARDIM MIRNA",
+    "position": "-23.7715593,-46.698488"
+  },
+  {
+    "key": "MEGA POSTO CENTRO CULTURAL GRAJAÚ",
+    "position": "-23.7355979,-46.6937945"
+  },
+  {
+    "key": "UBS ANCHIETA",
+    "position": "-23.7624489,-46.6861523"
+  },
+  {
+    "key": "UBS ALCINA PIMENTEL PIZA",
+    "position": "-23.7688467,-46.6514336"
+  },
+  {
+    "key": "UBS CANTINHO DO CÉU",
+    "position": "-23.7439991,-46.663974"
+  },
+  {
+    "key": "UBS CHÁCARA DO CONDE",
+    "position": "-23.7709269,-46.7073923"
+  },
+  {
+    "key": "UBS CHACARA DO SOL",
+    "position": "-23.7799115,-46.676254"
+  },
+  {
+    "key": "UBS CHACARA SANTO AMARO",
+    "position": "-23.821353,-46.6756467"
+  },
+  {
+    "key": "UBS GAIVOTAS",
+    "position": "-23.7345569,-46.6633445"
+  },
+  {
+    "key": "UBS JARDIM ELIANE",
+    "position": "-23.7537635,-46.6731553"
+  },
+  {
+    "key": "UBS JARDIM LUCELIA",
+    "position": "-23.7625763,-46.6745113"
+  },
+  {
+    "key": "UBS JARDIM NOVO HORIZONTE",
+    "position": "-23.7744674,-46.7034444"
+  },
+  {
+    "key": "UBS JARDIM TRÊS CORAÇÕES",
+    "position": "-23.7696124,-46.6868519"
+  },
+  {
+    "key": "UBS PARQUE RESIDENCIAL COCAIA INDEPENDENTE",
+    "position": "-23.7449871,-46.6710859"
+  },
+  {
+    "key": "UBS SHANGRILA/ELLUS",
+    "position": "-23.7663726,-46.6698217"
+  },
+  {
+    "key": "UBS VARGINHA",
+    "position": "-23.7851391,-46.6859615"
+  },
+  {
+    "key": "UBS VILA NATAL",
+    "position": "-23.7639688,-46.7096"
+  },
+  {
+    "key": "AMA/UBS INTEGRADA SÃO VICENTE DE PAULA",
+    "position": "-23.5909819,-46.6112137"
+  },
+  {
+    "key": "SAE IPIRANGA",
+    "position": "-23.5970603,-46.6019813"
+  },
+  {
+    "key": "UBS ALMIRANTE DELLAMARE",
+    "position": "-23.6037848,-46.5982598"
+  },
+  {
+    "key": "UBS DR. JOAQUIM ROSSINI",
+    "position": "-23.5967001,-46.5946391"
+  },
+  {
+    "key": "UBS HELIOPOLIS",
+    "position": "-23.6102991,-46.58425"
+  },
+  {
+    "key": "UBS OSWALDO MARASCA JUNIOR - VL MONUMENTO",
+    "position": "-23.5705381,-46.6136931"
+  },
+  {
+    "key": "AMA/UBS INTEGRADA AMERICANOPOLIS",
+    "position": "-23.6649011,-46.6461126"
+  },
+  {
+    "key": "AMA/UBS INTEGRADA CUPECÊ - DR. WALDOMIRO PREGNOLATTO",
+    "position": "-23.6482156,-46.6642842"
+  },
+  {
+    "key": "AMA/UBS INTEGRADA DR. GERALDO DA SILVA FERREIRA",
+    "position": "-23.6518563,-46.6387592"
+  },
+  {
+    "key": "AMA/UBS INTEGRADA VILA CLARA",
+    "position": "-23.6722765,-46.6396947"
+  },
+  {
+    "key": "UBS CIDADE VARGAS",
+    "position": "-23.6479371,-46.6405097"
+  },
+  {
+    "key": "UBS JARDIM LOURDES",
+    "position": "-23.6601264,-46.6392146"
+  },
+  {
+    "key": "UBS VILA CAMPESTRE",
+    "position": "-23.6602133,-46.6526317"
+  },
+  {
+    "key": "UBS VILA CANAÃ",
+    "position": "-23.654484,-46.6662329"
+  },
+  {
+    "key": "UBS VILA SANTA CATARINA",
+    "position": "-23.6533302,-46.6545815"
+  },
+  {
+    "key": "AMA/UBS INTEGRADA JARDIM CAPELA",
+    "position": "-23.7301625,-46.7909937"
+  },
+  {
+    "key": "AMA/UBS INTEGRADA PARQUE NOVO SANTO AMARO",
+    "position": "-23.7001204,-46.784531"
+  },
+  {
+    "key": "MEGA POSTO DE VACINAÇÃO - JARDIM ANGELA",
+    "position": "-23.6911956,-46.7769873"
+  },
+  {
+    "key": "UBS ALTO DA RIVIERA",
+    "position": "-23.6994396,-46.7696214"
+  },
+  {
+    "key": "UBS CHÁCARA SANTA MARIA",
+    "position": "-23.7004439,-46.7932213"
+  },
+  {
+    "key": "UBS CIDADE IPAVA",
+    "position": "-23.7203616,-46.7670079"
+  },
+  {
+    "key": "UBS HORIZONTE AZUL",
+    "position": "-23.7468662,-46.7799708"
+  },
+  {
+    "key": "UBS JARDIM ARACATI",
+    "position": "-23.7189499,-46.7722751"
+  },
+  {
+    "key": "UBS JARDIM CAIÇARA",
+    "position": "-23.683436,-46.777776"
+  },
+  {
+    "key": "UBS JARDIM COIMBRA",
+    "position": "-23.6786394,-46.7648264"
+  },
+  {
+    "key": "UBS JARDIM GUARUJÁ",
+    "position": "-23.6924143,-46.7900616"
+  },
+  {
+    "key": "UBS JARDIM HERCULANO",
+    "position": "-23.6922012,-46.7598062"
+  },
+  {
+    "key": "UBS JARDIM NAKAMURA",
+    "position": "-23.698927,-46.7757337"
+  },
+  {
+    "key": "UBS JARDIM PARANAPANEMA",
+    "position": "-23.6933816,-46.7829431"
+  },
+  {
+    "key": "UBS JARDIM SANTA MARGARIDA",
+    "position": "-23.6786808,-46.757685"
+  },
+  {
+    "key": "UBS PARQUE DO LAGO",
+    "position": "-23.7166354,-46.7797486"
+  },
+  {
+    "key": "UBS SANTA LÚCIA",
+    "position": "-23.6891573,-46.7681922"
+  },
+  {
+    "key": "UBS VERA CRUZ - DR FERNANDO PROENCA DE GOUVEA",
+    "position": "-23.7348834,-46.7834235"
+  },
+  {
+    "key": "UBS VILA CALU",
+    "position": "-23.7354565,-46.7909133"
+  },
+  {
+    "key": "AMA/UBS INTEGRADA JARDIM ALFREDO",
+    "position": "-23.6816186,-46.7411658"
+  },
+  {
+    "key": "AMA/UBS INTEGRADA PARQUE FIGUEIRA GRANDE",
+    "position": "-23.6794005,-47.8698136"
+  },
+  {
+    "key": "AMA/UBS INTEGRADA PARQUE SANTO ANTONIO",
+    "position": "-23.6572676,-46.7580223"
+  },
+  {
+    "key": "AMA/UBS INTEGRADA VILA PREL - PROF. ANTONIO BERNARDES DE OLIVEIRA",
+    "position": "-23.6485108,-46.7559633"
+  },
+  {
+    "key": "IGREJA N S DAS CANDEIAS",
+    "position": "-23.6727685,-46.7584638"
+  },
+  {
+    "key": "MEGA POSTO DE VACINAÇÃO - CENTRO EMPRESARIAL DE SÃO PAULO",
+    "position": "-23.6485339,-46.7345054"
+  },
+  {
+    "key": "SAE DST/ AIDS M BOI MIRIM",
+    "position": "-23.6695122,-46.7584535"
+  },
+  {
+    "key": "SALÃO PAROQUIAL N S DE FATIMA",
+    "position": "-23.643122,-46.7452259"
+  },
+  {
+    "key": "UBS BRASÍLIA - MBOI",
+    "position": "-23.6537983,-46.7472034"
+  },
+  {
+    "key": "UBS CHÁCARA SANTANA",
+    "position": "-23.6715991,-46.749244"
+  },
+  {
+    "key": "UBS JARDIM CELESTE",
+    "position": "-23.6566958,-46.7436142"
+  },
+  {
+    "key": "UBS JARDIM SOUZA",
+    "position": "-23.6888109,-46.7504873"
+  },
+  {
+    "key": "UBS JARDIM THOMAS",
+    "position": "-23.6738162,-46.7583114"
+  },
+  {
+    "key": "UBS NOVO CAMINHO",
+    "position": "-23.6546397,-46.73668"
+  },
+  {
+    "key": "UBS NOVO JARDIM I",
+    "position": "-23.6664534,-46.7386846"
+  },
+  {
+    "key": "UBS VILA DAS BELEZAS - DR. ALBERTO AMBROSIO",
+    "position": "-23.6433177,-46.7435297"
+  },
+  {
+    "key": "UBS ZUMBI DOS PALMARES",
+    "position": "-23.6719845,-46.7481805"
+  },
+  {
+    "key": "UBS DOM LUCIANO BERGAMINI",
+    "position": "-23.9341738,-46.7479123"
+  },
+  {
+    "key": "UBS JARDIM EMBURA",
+    "position": "-23.8806721,-46.7444559"
+  },
+  {
+    "key": "UBS MARSILAC",
+    "position": "-23.9066644,-46.7101345"
+  },
+  {
+    "key": "BUFFET COLONIAL",
+    "position": "-23.6021044,-46.6589748"
+  },
+  {
+    "key": "SHOPPING IBIRAPUERA",
+    "position": "-23.6103399,-46.66888"
+  },
+  {
+    "key": "UBS INDIANÓPOLIS - SIGMUND FREUD",
+    "position": "-23.6043848,-46.6566056"
+  },
+  {
+    "key": "UBS VILA OLIMPIA - MAX PERLMAN",
+    "position": "-23.5926352,-46.6735325"
+  },
+  {
+    "key": "MEGA POSTO CEU PARELHEIROS",
+    "position": "-23.8282098,-46.7262013"
+  },
+  {
+    "key": "UBS BARRAGEM",
+    "position": "-23.8777062,-46.6523762"
+  },
+  {
+    "key": "UBS COLONIA",
+    "position": "-23.8503145,-46.6992234"
+  },
+  {
+    "key": "UBS JARDIM CAMPINAS",
+    "position": "-23.7717257,-46.7146558"
+  },
+  {
+    "key": "UBS JARDIM DAS FONTES",
+    "position": "-23.8690643,-46.7544775"
+  },
+  {
+    "key": "UBS JARDIM IPORÃ",
+    "position": "-23.783364,-46.714772"
+  },
+  {
+    "key": "UBS JARDIM SANTA FÉ",
+    "position": "-23.8320564,-46.713253"
+  },
+  {
+    "key": "UBS JARDIM SÃO NORBERTO",
+    "position": "-23.8176066,-46.7075337"
+  },
+  {
+    "key": "UBS JARDIM SILVEIRA",
+    "position": "-23.8496885,-46.7152463"
+  },
+  {
+    "key": "UBS NOVA AMÉRICA",
+    "position": "-23.8687293,-46.6804274"
+  },
+  {
+    "key": "UBS PARELHEIROS",
+    "position": "-23.830176,-46.7268321"
+  },
+  {
+    "key": "UBS RECANTO CAMPO BELO",
+    "position": "-23.7923543,-46.7408019"
+  },
+  {
+    "key": "UBS VARGEM GRANDE",
+    "position": "-23.8563594,-46.7069463"
+  },
+  {
+    "key": "UBS VILA MARCELO",
+    "position": "-23.7880492,-46.7244091"
+  },
+  {
+    "key": "UBS VILA ROSCHEL",
+    "position": "-23.8415514,-46.7393716"
+  },
+  {
+    "key": "AMA/UBS INTEGRADA PARQUE DOROTEIA",
+    "position": "-23.6973445,-46.6507969"
+  },
+  {
+    "key": "UBS JARDIM APURÁ",
+    "position": "-23.7107273,-46.6552347"
+  },
+  {
+    "key": "UBS JARDIM NOVO PANTANAL - PEDREIRA",
+    "position": "-23.6995098,-46.6423872"
+  },
+  {
+    "key": "UBS JARDIM SELMA - CIDADE ADEMAR",
+    "position": "-23.6903226,-46.6593158"
+  },
+  {
+    "key": "UBS LARANJEIRAS",
+    "position": "-23.7034891,-46.6301451"
+  },
+  {
+    "key": "UBS MAR PAULISTA",
+    "position": "-23.6966299,-46.665173"
+  },
+  {
+    "key": "UBS MATA VIRGEM",
+    "position": "-23.7145123,-46.6297224"
+  },
+  {
+    "key": "UBS VILA APARECIDA",
+    "position": "-23.6909981,-46.6723782"
+  },
+  {
+    "key": "UBS VILA GUACURI-CICERO SERGIO CAVALCANTE",
+    "position": "-23.7025441,-46.6380562"
+  },
+  {
+    "key": "AMA/UBS INTEGRADA PQ BRISTOL",
+    "position": "-23.6492784,-46.6126057"
+  },
+  {
+    "key": "UBS AURELIO MELLONE - JARDIM SÃO SAVÉRIO",
+    "position": "-23.6573493,-46.6164601"
+  },
+  {
+    "key": "UBS EDUARDO ROMANO RESCHILIAN",
+    "position": "-23.638505,-46.6082213"
+  },
+  {
+    "key": "UBS JARDIM SECKLER",
+    "position": "-23.619237,-46.5891386"
+  },
+  {
+    "key": "UBS LUIZ ERNESTO MAZZONI",
+    "position": "-23.6448423,-46.5953082"
+  },
+  {
+    "key": "UBS MOINHO VELHO II",
+    "position": "-23.612479,-46.606009"
+  },
+  {
+    "key": "UBS SACOMÃ",
+    "position": "-23.6156141,-46.5958454"
+  },
+  {
+    "key": "UBS VILA ARAPUÃ",
+    "position": "-23.6335569,-46.5912361"
+  },
+  {
+    "key": "UBS VILA DAS MERCÊS",
+    "position": "-23.6296066,-46.6071099"
+  },
+  {
+    "key": "MEGA POSTO DE VACINAÇÃO - UNISA SANTO AMARO",
+    "position": "-23.6510359,-46.7044532"
+  },
+  {
+    "key": "NOVARTIS BIOCIÊNCIA S.A.",
+    "position": "-23.6272254,-46.688686"
+  },
+  {
+    "key": "SAE DST / AIDS SANTO AMARO",
+    "position": "-23.649482,-46.705244"
+  },
+  {
+    "key": "SUBPREFEITURA CIDADE ADEMAR",
+    "position": "-23.6674946,-46.6765904"
+  },
+  {
+    "key": "UBS CHÁCARA SANTO ANTONIO - DR. MARCILIO DE ARRUDA PENTEADO FILHO",
+    "position": "-23.6353189,-46.7012905"
+  },
+  {
+    "key": "UBS SANTO AMARO – DR. SÉRGIO VILLAÇA BRAGA / TEATRO PAULO EIRÓ",
+    "position": "-23.6464985,-46.704145"
+  },
+  {
+    "key": "AE DR. ALEXANDRE KALIL YASBEK - CECI",
+    "position": "-23.6286326,-46.6483788"
+  },
+  {
+    "key": "UBS PARQUE IMPERIAL - PROF. MANOEL A. S. SARAGOÇA",
+    "position": "-23.6282483,-46.6380946"
+  },
+  {
+    "key": "UBS VELEIROS",
+    "position": "-23.6829898,-46.7137662"
+  },
+  {
+    "key": "ESCOLA GRADED",
+    "position": "-23.6203907,-46.7374774"
+  },
+  {
+    "key": "UBS JARDIM DAS PALMAS",
+    "position": "-23.6221684,-46.748059"
+  },
+  {
+    "key": "UBS PARAISOPOLIS",
+    "position": "-23.6169059,-46.7253328"
+  },
+  {
+    "key": "UBS PARAISOPOLIS II",
+    "position": "-23.6124924,-46.7283721"
+  },
+  {
+    "key": "UBS PARAISOPOLIS III",
+    "position": "-23.6167649,-46.722401"
+  },
+  {
+    "key": "UBS VILA PRAIA",
+    "position": "-23.617329,-46.7480145"
+  },
+  {
+    "key": "CRHMTPIS BOSQUE DA SAÚDE",
+    "position": "-23.5973084,-46.6258395"
+  },
+  {
+    "key": "IGREJA DE SÃO JUDAS",
+    "position": "-23.6269398,-46.6452978"
+  },
+  {
+    "key": "SHOPPING METRÔ SANTA CRUZ",
+    "position": "-23.5990138,-46.6390905"
   }
 ]

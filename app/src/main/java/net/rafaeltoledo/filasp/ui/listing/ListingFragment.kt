@@ -47,7 +47,7 @@ class ListingFragment : Fragment(R.layout.fragment_listing) {
         val rawData = requireContext().readAsset()
         val data = moshi.parseData(rawData)
 
-        placeList.adapter = ListingAdapter(places/*.filter { data.map { it.key }.contains(it.name).not() }*/)
+        placeList.adapter = ListingAdapter(places.filter { data.map { it.key }.contains(it.name).not() })
         placeList.addItemDecoration(DividerItemDecoration(requireContext(), DividerItemDecoration.VERTICAL))
     }
 }

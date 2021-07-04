@@ -8,4 +8,9 @@
         android:name="net.rafaeltoledo.filasp.ui.listing.ListingFragment"
         android:label="@string/nav_place_listing" />
 
+    <fragment
+        android:id="@+id/nav_map"
+        android:name="net.rafaeltoledo.filasp.ui.map.MapFragment"
+        android:label="@string/nav_map" />
+
 </navigation>
