@@ -15,6 +15,8 @@ buildscript {
             moshi       : '1.12.0',
             lifecycle   : '2.3.1',
             navigation  : '2.3.5',
+            permission  : '4.8.0',
+            maps        : '17.0.1',
     ]
 
     repositories {
@@ -33,17 +35,6 @@ allprojects {
     repositories {
         google()
         mavenCentral()
-
-        maven {
-            url 'https://api.mapbox.com/downloads/v2/releases/maven'
-            authentication {
-                basic(BasicAuthentication)
-            }
-            credentials {
-                username = 'mapbox'
-                password = "$MAPBOX_PRIVATE_TOKEN"
-            }
-        }
     }
 }
 

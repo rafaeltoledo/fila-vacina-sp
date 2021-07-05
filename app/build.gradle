@@ -18,7 +18,9 @@ android {
 
         testInstrumentationRunner 'androidx.test.runner.AndroidJUnitRunner'
 
-        resValue 'string', 'mapbox_access_token', "$MAPBOX_PUBLIC_TOKEN"
+        manifestPlaceholders = [
+                maps_api_key: GOOGLE_MAPS_API_KEY
+        ]
     }
 
     signingConfigs {
@@ -94,9 +96,8 @@ dependencies {
     implementation "com.google.dagger:hilt-android:$versions.dagger"
     kapt "com.google.dagger:hilt-android-compiler:$versions.dagger"
 
-    implementation 'com.github.permissions-dispatcher:permissionsdispatcher-ktx:4.8.0'
-
-    implementation 'com.mapbox.mapboxsdk:mapbox-android-sdk:9.6.1'
+    implementation "com.github.permissions-dispatcher:permissionsdispatcher-ktx:$versions.permission"
+    implementation "com.google.android.gms:play-services-maps:$versions.maps"
 
     testImplementation 'junit:junit:4.13.2'
 
