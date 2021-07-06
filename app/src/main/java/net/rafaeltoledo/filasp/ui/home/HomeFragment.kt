@@ -74,7 +74,6 @@ class HomeFragment : Fragment(R.layout.fragment_home) {
             addPlaces(map, places)
             map.setOnInfoWindowClickListener { marker ->
                 navigateToDetails(places.find { it.name == marker.title })
-                true
             }
         }
     }

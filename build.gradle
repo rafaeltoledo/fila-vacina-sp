@@ -40,6 +40,16 @@ allprojects {
         google()
         mavenCentral()
     }
+
+    configurations.all {
+        resolutionStrategy {
+            eachDependency { details ->
+                if (details.requested.group == 'org.jetbrains.kotlin') {
+                    details.useVersion versions.kotlin
+                }
+            }
+        }
+    }
 }
 
 task clean(type: Delete) {
