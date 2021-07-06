@@ -9,3 +9,4 @@
 .cxx
 local.properties
 distribution/release.keystore
+google-services.json

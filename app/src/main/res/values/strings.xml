@@ -2,7 +2,10 @@
     <string name="app_name">De Olho na Fila</string>
 
     <string name="nav_map">Map Navigation Target</string>
+    <string name="nav_home">Home Navigation Target</string>
     <string name="nav_place_listing">Place Listing Navigation Target</string>
 
     <string name="error_network">Failed to fetch data</string>
+
+    <string name="button_retry">Retry</string>
 </resources>

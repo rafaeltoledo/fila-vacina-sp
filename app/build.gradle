@@ -3,6 +3,7 @@ plugins {
     id 'org.jetbrains.kotlin.android'
     id 'org.jetbrains.kotlin.kapt'
     id 'dagger.hilt.android.plugin'
+    id 'com.google.gms.google-services'
 }
 
 android {
@@ -42,7 +43,9 @@ android {
         }
 
         release {
-            minifyEnabled false
+            signingConfig signingConfigs.release
+
+            minifyEnabled true
             proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
         }
     }
@@ -96,8 +99,12 @@ dependencies {
     implementation "com.google.dagger:hilt-android:$versions.dagger"
     kapt "com.google.dagger:hilt-android-compiler:$versions.dagger"
 
-    implementation "com.github.permissions-dispatcher:permissionsdispatcher-ktx:$versions.permission"
+    implementation "com.github.permissions-dispatcher:permissionsdispatcher:$versions.permission"
+    kapt "com.github.permissions-dispatcher:permissionsdispatcher-processor:$versions.permission"
+
     implementation "com.google.android.gms:play-services-maps:$versions.maps"
+    implementation "com.google.android.gms:play-services-location:18.0.0"
+    implementation 'com.google.firebase:firebase-core:19.0.0'
 
     testImplementation 'junit:junit:4.13.2'
 
