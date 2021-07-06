@@ -23,5 +23,6 @@ fun QueueStatus.mapIcon(): BitmapDescriptor {
         QueueStatus.LARGE_QUEUE -> BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_RED)
         QueueStatus.MEDIUM_QUEUE -> BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_ORANGE)
         QueueStatus.SMALL_QUEUE -> BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_YELLOW)
+        QueueStatus.AWAITING_DOSES -> BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_AZURE)
     }
 }

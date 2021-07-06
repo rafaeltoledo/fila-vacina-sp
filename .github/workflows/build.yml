@@ -48,9 +48,10 @@ jobs:
         env:
           RELEASE_KEY_PASSWORD: ${{ secrets.RELEASE_KEY_PASSWORD }}
       - name: Upload release
-        run: ./gradlew appDistributionUploadRelease --stacktrace
+        run: ./gradlew assembleRelease appDistributionUploadRelease --stacktrace
         env:
           FIREBASE_TOKEN: ${{ secrets.FIREBASE_TOKEN }}
+          RELEASE_KEY_PASSWORD: ${{ secrets.RELEASE_KEY_PASSWORD }}
       - name: Upload test reports
         if: always()
         uses: actions/upload-artifact@v2

@@ -20,6 +20,7 @@ enum class QueueStatus {
     @Json(name = "FILA GRANDE") LARGE_QUEUE,
     @Json(name = "FILA MÉDIA") MEDIUM_QUEUE,
     @Json(name = "FILA PEQUENA") SMALL_QUEUE,
+    @Json(name = "AGUARDANDO ABASTECIMENTO") AWAITING_DOSES,
 }
 
 enum class PlaceType {
