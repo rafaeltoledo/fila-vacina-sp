@@ -37,12 +37,20 @@ jobs:
         run: echo "${GOOGLE_SERVICES_JSON}" >> "app/google-services.json"
         env:
           GOOGLE_SERVICES_JSON: ${{ secrets.GOOGLE_SERVICES_JSON }}
+      - name: Setup testers data
+        run: |
+          git log -1 --pretty=%B >> releasenotes.txt
+          echo "${FIREBASE_TESTERS}" >> testers.txt
       - name: Configure Gradle
         run: ./gradlew help  --stacktrace
       - name: Build project
         run: ./gradlew assemble testDebugUnitTest --stacktrace
         env:
           RELEASE_KEY_PASSWORD: ${{ secrets.RELEASE_KEY_PASSWORD }}
+      - name: Upload release
+        run: ./gradlew appDistributionUploadRelease --stacktrace
+        env:
+          FIREBASE_TOKEN: ${{ secrets.FIREBASE_TOKEN }}
       - name: Upload test reports
         if: always()
         uses: actions/upload-artifact@v2

@@ -4,6 +4,9 @@ plugins {
     id 'org.jetbrains.kotlin.kapt'
     id 'dagger.hilt.android.plugin'
     id 'com.google.gms.google-services'
+    id 'com.google.firebase.crashlytics'
+    id 'com.google.firebase.appdistribution'
+    id 'com.google.firebase.firebase-perf'
 }
 
 android {
@@ -47,6 +50,11 @@ android {
 
             minifyEnabled true
             proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+
+            firebaseAppDistribution {
+                releaseNotes = file("$rootDir/releasenotes.txt").text
+                testers = file("$rootDir/testers.txt").text
+            }
         }
     }
 
@@ -60,8 +68,6 @@ android {
     }
 
     buildFeatures.viewBinding true
-
-    ndkVersion '22.1.7171670'
 }
 
 kapt {
@@ -72,8 +78,8 @@ kapt {
         // set them manually to workaround a bug in the Kotlin 1.5.20
         // See https://github.com/google/dagger/issues/2684
         // See https://youtrack.jetbrains.com/issue/KT-47416
-        option("-Adagger.fastInit=ENABLED")
-        option("-Adagger.hilt.android.internal.disableAndroidSuperclassValidation=true")
+        option '-Adagger.fastInit=ENABLED'
+        option '-Adagger.hilt.android.internal.disableAndroidSuperclassValidation=true'
     }
 }
 
@@ -104,7 +110,12 @@ dependencies {
 
     implementation "com.google.android.gms:play-services-maps:$versions.maps"
     implementation "com.google.android.gms:play-services-location:18.0.0"
-    implementation 'com.google.firebase:firebase-core:19.0.0'
+
+    implementation 'com.google.firebase:firebase-analytics-ktx:19.0.0'
+    implementation 'com.google.firebase:firebase-crashlytics-ktx:18.1.0'
+    implementation 'com.google.firebase:firebase-perf-ktx:20.0.1'
+
+    implementation 'org.conscrypt:conscrypt-android:2.5.2'
 
     testImplementation 'junit:junit:4.13.2'
 

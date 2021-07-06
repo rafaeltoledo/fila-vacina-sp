@@ -10,3 +10,5 @@
 local.properties
 distribution/release.keystore
 google-services.json
+releasenotes.txt
+testers.txt

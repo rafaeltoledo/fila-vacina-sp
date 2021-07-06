@@ -72,6 +72,16 @@ class HomeFragment : Fragment(R.layout.fragment_home) {
             map.uiSettings.isZoomControlsEnabled = true
 
             addPlaces(map, places)
+            map.setOnInfoWindowClickListener { marker ->
+                navigateToDetails(places.find { it.name == marker.title })
+                true
+            }
+        }
+    }
+
+    private fun navigateToDetails(place: VaccinationPlace?) {
+        place?.let {
+            Snackbar.make(requireView(), it.updatedAt, Snackbar.LENGTH_SHORT).show()
         }
     }
 
