@@ -20,3 +20,4 @@
 # hide the original source file name.
 -renamesourcefileattribute SourceFile
 -keepclassmembers enum * { public *; }
+-keep class net.rafaeltoledo.filasp.api.VaccinationPlace { *; }
