@@ -17,14 +17,16 @@ android {
         applicationId 'net.rafaeltoledo.filasp'
         minSdkVersion 21
         targetSdkVersion 30
-        versionCode 1
-        versionName '1.0.0'
+        versionCode rootProject.gitCommitCount
+        versionName "0.0.${rootProject.gitCommitCount}"
 
         testInstrumentationRunner 'androidx.test.runner.AndroidJUnitRunner'
 
         manifestPlaceholders = [
                 maps_api_key: GOOGLE_MAPS_API_KEY
         ]
+
+        buildConfigField 'String', 'GIT_SHA', "\"${gitSha}\""
     }
 
     signingConfigs {
@@ -118,6 +120,7 @@ dependencies {
     implementation 'com.google.firebase:firebase-perf-ktx:20.0.1'
 
     implementation 'org.conscrypt:conscrypt-android:2.5.2'
+    implementation "com.jakewharton.threetenabp:threetenabp:$versions.threetenabp"
 
     testImplementation 'junit:junit:4.13.2'
 

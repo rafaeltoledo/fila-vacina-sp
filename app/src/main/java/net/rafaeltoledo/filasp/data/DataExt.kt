@@ -1,13 +1,13 @@
 package net.rafaeltoledo.filasp.data
 
-import android.content.Context
+import android.content.res.AssetManager
 import com.squareup.moshi.JsonReader
 import com.squareup.moshi.Moshi
 import okio.buffer
 import okio.source
 
-fun Context.readAsset(fileName: String = "latlng.json"): String {
-    return assets.open(fileName).reader().readText()
+fun AssetManager.readAsset(fileName: String = "latlng.json"): String {
+    return open(fileName).reader().readText()
 }
 
 fun Moshi.parseData(rawData: String): List<LocationData> {

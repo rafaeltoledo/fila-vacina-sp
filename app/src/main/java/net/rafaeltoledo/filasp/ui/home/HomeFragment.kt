@@ -5,20 +5,21 @@ import android.annotation.SuppressLint
 import android.os.Bundle
 import android.view.View
 import androidx.annotation.StringRes
+import androidx.core.os.bundleOf
 import androidx.fragment.app.Fragment
 import androidx.fragment.app.viewModels
+import androidx.navigation.fragment.findNavController
+import com.google.android.gms.maps.CameraUpdateFactory
 import com.google.android.gms.maps.GoogleMap
 import com.google.android.gms.maps.SupportMapFragment
+import com.google.android.gms.maps.model.LatLngBounds
 import com.google.android.gms.maps.model.MarkerOptions
 import com.google.android.material.snackbar.Snackbar
 import com.squareup.moshi.Moshi
 import dagger.hilt.android.AndroidEntryPoint
 import net.rafaeltoledo.filasp.R
 import net.rafaeltoledo.filasp.api.VaccinationPlace
-import net.rafaeltoledo.filasp.data.latLng
 import net.rafaeltoledo.filasp.data.mapIcon
-import net.rafaeltoledo.filasp.data.parseData
-import net.rafaeltoledo.filasp.data.readAsset
 import net.rafaeltoledo.filasp.databinding.FragmentHomeBinding
 import permissions.dispatcher.NeedsPermission
 import permissions.dispatcher.RuntimePermissions
@@ -80,21 +81,26 @@ class HomeFragment : Fragment(R.layout.fragment_home) {
 
     private fun navigateToDetails(place: VaccinationPlace?) {
         place?.let {
-            Snackbar.make(requireView(), it.updatedAt, Snackbar.LENGTH_SHORT).show()
+            findNavController().navigate(R.id.to_place_details, bundleOf(
+                "place" to it
+            ))
         }
     }
 
     private fun addPlaces(map: GoogleMap, places: List<VaccinationPlace>) {
-        val rawData = requireContext().readAsset()
-        val data = moshi.parseData(rawData)
+        if (places.isEmpty()) return
 
+        val bounds = LatLngBounds.Builder()
         places.forEach { place ->
+            bounds.include(place.position)
             map.addMarker(
                 MarkerOptions()
                     .title(place.name)
-                    .position(data.find { it.key == place.name }!!.latLng())
+                    .position(place.position)
                     .icon(place.status.mapIcon())
             )
         }
+
+        map.moveCamera(CameraUpdateFactory.newLatLngBounds(bounds.build(), 0))
     }
 }

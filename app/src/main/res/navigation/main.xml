@@ -6,16 +6,19 @@
     <fragment
         android:id="@+id/nav_home"
         android:name="net.rafaeltoledo.filasp.ui.home.HomeFragment"
-        android:label="@string/nav_home" />
+        android:label="@string/nav_home">
+        <action
+            android:id="@+id/to_place_details"
+            app:destination="@id/nav_place_details">
+            <argument
+                android:name="place"
+                app:argType="net.rafaeltoledo.filasp.api.VaccinationPlace" />
+        </action>
+    </fragment>
 
     <fragment
-        android:id="@+id/nav_place_listing"
-        android:name="net.rafaeltoledo.filasp.ui.listing.ListingFragment"
-        android:label="@string/nav_place_listing" />
-
-    <fragment
-        android:id="@+id/nav_map"
-        android:name="net.rafaeltoledo.filasp.ui.map.MapFragment"
-        android:label="@string/nav_map" />
+        android:id="@+id/nav_place_details"
+        android:name="net.rafaeltoledo.filasp.ui.details.PlaceDetailsFragment"
+        android:label="@string/nav_place_details" />
 
 </navigation>
