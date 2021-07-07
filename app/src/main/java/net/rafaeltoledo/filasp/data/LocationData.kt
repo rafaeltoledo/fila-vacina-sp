@@ -17,7 +17,7 @@ fun LocationData.latLng(): LatLng {
 }
 
 fun QueueStatus.mapIcon(): BitmapDescriptor {
-    return when(this) {
+    return when (this) {
         QueueStatus.CLOSED -> BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_AZURE)
         QueueStatus.NO_QUEUE -> BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_GREEN)
         QueueStatus.LARGE_QUEUE -> BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_RED)

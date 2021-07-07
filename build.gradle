@@ -19,6 +19,7 @@ buildscript {
                 permission  : '4.8.0',
                 maps        : '17.0.1',
                 threetenabp : '1.3.1',
+                ktlint      : '0.41.0',
         ]
 
         gitSha = 'git rev-parse --short HEAD'.execute([], project.rootDir).text.trim()
@@ -38,6 +39,7 @@ buildscript {
         classpath 'com.google.firebase:firebase-crashlytics-gradle:2.7.1'
         classpath 'com.google.firebase:perf-plugin:1.4.0'
         classpath 'com.google.firebase:firebase-appdistribution-gradle:2.1.3'
+        classpath 'com.diffplug.spotless:spotless-plugin-gradle:5.14.1'
     }
 }
 
@@ -45,6 +47,25 @@ allprojects {
     repositories {
         google()
         mavenCentral()
+    }
+
+    apply plugin: 'com.diffplug.spotless'
+    spotless {
+        format 'misc', {
+            target '**/*.xml', '**/*.md', '**/.gitignore', '**/*.gradle'
+
+            trimTrailingWhitespace()
+            indentWithSpaces()
+            endWithNewline()
+        }
+
+        kotlin {
+            target '**/*.kt'
+            targetExclude "$buildDir/**/*.kt"
+            targetExclude 'bin/**/*.kt'
+
+            ktlint versions.ktlint
+        }
     }
 
     configurations.all {
@@ -56,8 +77,4 @@ allprojects {
             }
         }
     }
-}
-
-task clean(type: Delete) {
-    delete rootProject.buildDir
 }

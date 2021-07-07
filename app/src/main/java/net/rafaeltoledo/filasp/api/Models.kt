@@ -9,7 +9,7 @@ import com.squareup.moshi.JsonClass
 import com.squareup.moshi.ToJson
 import org.threeten.bp.LocalDateTime
 import org.threeten.bp.format.DateTimeFormatter
-import java.util.*
+import java.util.Locale
 
 @JsonClass(generateAdapter = true)
 data class VaccinationPlace(

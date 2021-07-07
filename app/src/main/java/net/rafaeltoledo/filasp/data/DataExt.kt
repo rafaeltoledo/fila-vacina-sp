@@ -39,4 +39,3 @@ fun Moshi.parseData(rawData: String): List<LocationData> {
 
     return list.toList()
 }
-

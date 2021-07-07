@@ -81,9 +81,12 @@ class HomeFragment : Fragment(R.layout.fragment_home) {
 
     private fun navigateToDetails(place: VaccinationPlace?) {
         place?.let {
-            findNavController().navigate(R.id.to_place_details, bundleOf(
-                "place" to it
-            ))
+            findNavController().navigate(
+                R.id.to_place_details,
+                bundleOf(
+                    "place" to it
+                )
+            )
         }
     }
 
