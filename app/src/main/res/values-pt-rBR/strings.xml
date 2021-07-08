@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="error_network">Falha ao obter dados do servidor</string>
+
+    <string name="button_retry">Tentar de novo</string>
+
+    <string name="format_day_month">dd MMM</string>
+    <string name="format_day_month_year">dd/MM/yy</string>
+</resources>

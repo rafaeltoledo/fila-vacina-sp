@@ -1,10 +1,13 @@
 <resources>
-    <string name="app_name">De Olho na Fila</string>
+    <string name="app_name" translatable="false">De Olho na Fila</string>
 
-    <string name="nav_home">Home Navigation Target</string>
-    <string name="nav_place_details">Place Details Navigation Target</string>
+    <string name="nav_home" translatable="false">Home Navigation Target</string>
+    <string name="nav_place_details" translatable="false">Place Details Navigation Target</string>
 
     <string name="error_network">Failed to fetch data</string>
 
     <string name="button_retry">Retry</string>
+
+    <string name="format_day_month">MMM dd</string>
+    <string name="format_day_month_year">MM/dd/yy</string>
 </resources>
